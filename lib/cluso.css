@@ -1,0 +1,17 @@
+.cc-margin-top-little { margin-top: 8px; }
+
+.cc-keep-clear { margin: 8px 10px; }
+.cc-keep-clear-little { margin: 4px 6px; }
+span.cc-keep-clear, 
+span.cc-keep-clear-little { display: inline-block; }
+
+.cc-keep-clear-content-little { padding: 4px 8px; }
+.cc-keep-clear-content { padding: 8px 10px; }
+.cc-keep-clear-content-more { padding: 13px 18px; }
+
+/* hide an element */
+.cc-element-hidden, .cc-element-hidden-toggable { display: none!important; }
+/* hide an element, but preserve the space on display */
+.cc-element-invisible, .cc-element-invisible-toggable, .cc-element-toggable { visibility: hidden!important; }
+/* show an element */
+.cc-element-visible { visibility: visible!important; }
